@@ -1,0 +1,13 @@
+[package]
+name = "idiomatic-rust"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+[lints.rust]
+unsafe_code = "forbid"
+
+[[example]]
+name = "cli"
+path = "./examples/cli/src/main.rs"
